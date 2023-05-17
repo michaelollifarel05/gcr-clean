@@ -1,9 +1,10 @@
 import subprocess as sp
 import os
+import sys
 from datetime import datetime
 from time import sleep
 
-ImageMaxLimit=10
+ImageMaxLimit= int(sys.argv[1])
 
 
 print("\n\n\n!!WARNING!!\n\n\nThe maximum number of images on each Registry will be set to a maximum of "+str(ImageMaxLimit)+" images")
